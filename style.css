@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #72354e;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#main-nav {
+    background-color: #edd7e0;
+    padding: 10px;
+}
+
+#main-nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+#main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#main-nav a {
+    color: #a6969d;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 30px;
+    font-family: 'Righteous', cursive;
+}
+
+#Homepage {
+    background: url(IMG/1HP/BG.png);
+    height: 900px;
+}
+
+#Tittle {
+    margin: auto;
+}
+
+#Tittle img {
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+#Tittle h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #edd7e0;
+    font-family: 'Montserrat', sans-serif;
+    margin: 150px;
+}
