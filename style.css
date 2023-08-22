@@ -60,5 +60,10 @@ body {
     font-size: 45px;
     color: #edd7e0;
     font-family: 'Montserrat', sans-serif;
-    margin: 150px;
+    margin-top: 150px;
+}
+
+#About {
+    background: url(IMG/2A/BG.png);
+    height: 1061px;
 }
