@@ -53,11 +53,10 @@ img[src="IMG/1HP/Heading.png"] {
     top: 300px;
 }
 
-h1.Quote {
+h1.subtitle {
     color: #edd7e0;
     text-align: center;
-    position: relative;
-    top: 460px;
+    padding-top: 100px;
     font-family: 'Montserrat', sans-serif;
 }
 
