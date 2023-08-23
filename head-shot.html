@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Head Shot</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+
+<div id="work-cat">
+    <h1>Head Shot</h1>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="IMG/4WC/1-HD/HD1.png"max-width="600" height="500"></div>
+                <div class="swiper-slide"><img src="IMG/4WC/1-HD/HD2.png"max-width="600" height="500"></div>
+                <div class="swiper-slide"><img src="IMG/4WC/1-HD/HD3.png"max-width="600" height="500"></div>
+                <div class="swiper-slide"><img src="IMG/4WC/1-HD/HD4.png"max-width="600" height="500"></div>
+                <div class="swiper-slide"><img src="IMG/4WC/1-HD/HD5.png"max-width="600" height="500"></div>
+                <div class="swiper-slide"><img src="IMG/4WC/1-HD/HD6.png"max-width="600" height="500"></div>
+                <div class="swiper-slide"><img src="IMG/4WC/1-HD/HD7.png"max-width="600" height="500"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+<script>
+    const swiper = new Swiper('.swiper', {
+    cssMode: true,
+    autoplay: {
+    delay: 6000,
+    disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    scrollbar: {
+        el: '.swiper-scrollbar',
+        clickable: true,
+    },
+    });
+</script>
+
+</body>
+</html>
