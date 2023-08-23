@@ -53,7 +53,7 @@ img[src="IMG/1HP/Heading.png"] {
     top: 300px;
 }
 
-h1 {
+h1.Quote {
     color: #edd7e0;
     text-align: center;
     position: relative;
@@ -105,5 +105,39 @@ h1 {
 
 #Works {
     background: url(IMG/3W/BG.png);
-    height: 1084px;
+    height: 707px;
+}
+
+#Works {
+    background: url(IMG/3W/BG.png);
+    height: 707px;
+}
+
+#nav {
+    position: relative;
+    left: 350px;
+    top: 120px;
+}
+
+#nav ul {
+    list-style-type: none;
+}
+
+#nav li {
+    display: block;
+    padding-bottom: 50px;
+}
+
+#nav a {
+    color: #edd7e0;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+}
+
+#sample {
+    text-align: right;
+    position: absolute;
+    right: 350px;
+    top: 100px;
 }
