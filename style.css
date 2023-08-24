@@ -67,40 +67,20 @@ h1.subtitle {
 }
 
 #HN {
-    position: relative;
-    left: 7%;
-    top: 300px;
+    padding-top: 300px;
+    padding-left: 80px;
 }
 
 #PFP {
-    text-align: right;
-    position: relative;
-    right: 7%;
-    top: 100px;
+    position: absolute;
+    right: 80px;
+    top: 250px;
 }
 
 #W-Border {
     position: relative;
     left: 0px;
-    bottom: 10px;
-}
-
-#W-Border p.first {
-    position: absolute;
-    left: 50px;
-    top: 20%;
-    font-size: 45px;
-    color: #a6969d;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#W-Border p.second {
-    position: absolute;
-    left: 100px;
-    top: 40%;
-    font-size: 45px;
-    color: #a6969d;
-    font-family: 'Montserrat', sans-serif;
+    top: 125px;
 }
 
 #Works {
@@ -135,4 +115,13 @@ h1.subtitle {
     position: absolute;
     right: 25%;
     top: 100px;
+}
+
+#work-cat {
+    text-align: center;
+    height: 707px;
+}
+
+.swiper {
+    padding-top: 100px;
 }
