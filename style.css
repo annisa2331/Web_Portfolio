@@ -117,11 +117,41 @@ h1.subtitle {
     top: 100px;
 }
 
-#work-cat {
-    text-align: center;
+.swiper {
+   text-align: center;
+   position: relative;
+   top: 100px;
+}
+
+#Head-shot {
+    background: url(IMG/4WC/1-HD/1-BG-HD.png);
     height: 707px;
 }
 
-.swiper {
-    padding-top: 100px;
+#Bust-up {
+    background: url(IMG/4WC/2-BU/2-BG-BU.png);
+    height: 707px;
+}
+
+#Half-body {
+    background: url(IMG/4WC/3-HB/3-BG-HB.png);
+    height: 707px;
+}
+
+#Cjaracter-illustrator {
+    background: url(IMG/4WC/4-CL/4-BG-CI.png);
+    height: 707px;
+}
+
+#Contacts {
+    text-align: center;
+    background: url(IMG/5C/BG.png);
+    height: 707px;
+}
+
+h1.Contacts {
+    color: antiquewhite;
+    font-size: 100px;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
